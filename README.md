@@ -1,7 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 **23组**：朱双赫-费姚瑞-王嘉成
-**分工**：<br\>朱双赫：数据爬取，Web搭建&数据可视化，PPT制作及展示；<br\>费姚瑞：数据清洗，数据爬取；<br\>王嘉成：Web搭建&数据可视化；
+**分工**：\
+朱双赫：数据爬取，Web搭建&数据可视化，PPT制作及展示；\
+费姚瑞：数据清洗，数据爬取；\
+王嘉成：Web搭建&数据可视化；
 
 ## Getting Started
 First, set environment needed:
