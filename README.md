@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 **23组**：朱双赫-费姚瑞-王嘉成\
 **分工**：\
 朱双赫：数据爬取，Web搭建&数据可视化，PPT制作及展示；\
-费姚瑞：数据清洗，数据爬取；\
+费姚瑞：数据爬取，数据清洗；\
 王嘉成：Web搭建&数据可视化；
 
 ## Getting Started
