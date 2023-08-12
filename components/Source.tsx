@@ -16,6 +16,7 @@ import ViewDetail from "@spectrum-icons/workflow/ViewDetail";
 import Fuse from "fuse.js";
 
 import * as React from "react";
+import { useDebounce } from "use-debounce";
 
 export default function Source({
   vups,
@@ -35,6 +36,7 @@ export default function Source({
 
   const [searchText, setSearchText] = React.useState<string>();
   const [selectedKeys, setSelectedKeys] = [selectedVupKeys, setSelectedVupKeys];
+  const [debouncedSearchText] = useDebounce(searchText, 200);
 
   return (
     <Flex direction={"column"} gap={"size-150"}>
@@ -49,7 +51,7 @@ export default function Source({
         <ListView
           selectionMode="multiple"
           aria-label="vup sources"
-          items={searchText ? searchVup(vups, searchText) : vups}
+          items={debouncedSearchText ? searchVup(vups, debouncedSearchText) : vups}
           selectedKeys={selectedKeys}
           onSelectionChange={setSelectedKeys}
         >
