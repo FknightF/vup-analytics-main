@@ -1,4 +1,4 @@
-![image](https://github.com/fyr03/vup-analytics-main/assets/113531711/1f38cbca-55c3-417b-aad9-b82e2fbf8368)![image](https://github.com/fyr03/vup-analytics-main/assets/113531711/ed4b21d1-f408-4718-9390-5bab81f31a47)This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 **23组**：朱双赫-费姚瑞-王嘉成\
 **分工**：\
